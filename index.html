@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <div class="calcScreen">
+                
+            </div>
+            <div class="numPad">
+                <table>
+                    <tr>
+                        <button class="clear"> C </button>
+                    </tr>
+                    <tr>
+                        <td> <button class="number" onclick="addOnScreen(7)">7</button> </td>
+                        <td> <button class="number" onclick="addOnScreen(8)">8</button> </td>
+                        <td> <button class="number" onclick="addOnScreen(9)">9</button> </td>
+                        <td> <button class="operator" id="div" onclick="getOperator ('÷')">÷</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <button class="number" onclick="addOnScreen(4)" >4</button> </td>
+                        <td> <button class="number" onclick="addOnScreen(5)" >5</button> </td>
+                        <td> <button class="number" onclick="addOnScreen(6)" >6</button> </td>
+                        <td> <button class="operator" id="mult" onclick="getOperator('x')">x</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <button class="number" onclick="addOnScreen(1)" >1</button> </td>
+                        <td> <button class="number" onclick="addOnScreen(2)" >2</button> </td>
+                        <td> <button class="number" onclick="addOnScreen(3)" >3</button> </td>
+                        <td> <button class="operator" id="sub" onclick="getOperator('-')">-</button> </td>
+                    </tr>
+                    <tr>
+                        <td> <button class="number" onclick="addOnScreen(0)"  >0</button> </td>
+                        <td> <button class="number" onclick="addOnScreen('00')"  >00</button> </td>
+                        <td> <button class="number" onclick="addOnScreen('.')" >.</button> </td>
+                        <td> <button class="operator" id="sum" onclick="getOperator('+')">+</button> </td>
+                    </tr>
+                    <tr>
+                        <button class="calculate">=</button> </td>
+                    </tr>
+                </table>
+                
+            </div>
+        </div>
+        
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>

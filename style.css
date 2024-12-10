@@ -1,0 +1,85 @@
+.calculator {
+    border: 1em solid black;
+    width: 370px;
+    height: 550px;
+    margin: 10px;
+
+}
+
+.calcScreen {
+    border: solid gray;
+    height: 10%;
+    font-size: 24pt;
+    margin: 20px;
+    /* padding-left: 12px; */
+    text-align: end;
+   
+
+}
+
+.numPad {
+    border: solid gainsboro;
+    margin: 20px;
+    padding: 10px;
+    height: 65%;
+    justify-content: center;
+
+}
+
+.number {
+    border: 1px solid gainsboro;
+    border-radius: 15%;
+    background-color: gainsboro;
+    font-size: 20pt;
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.operator {
+    border: 1px solid yellow;
+    border-radius: 15%;
+    background-color: yellow;
+    font-size: 20pt;
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.operatorSelected {
+    border: 1px solid black;
+    border-radius: 15%;
+    background-color: white;
+    font-size: 20pt;
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+
+.calculate {
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: red;
+    font-size: 20pt;
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    align-self: center;
+}
+
+.clear {
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: gray;
+    font-size: 20pt;
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    align-self: center;
+}
